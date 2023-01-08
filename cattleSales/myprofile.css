@@ -1,0 +1,56 @@
+table.myProfiletable{
+ 	text-align: center;
+ 	border: none;
+ 	border-collapse: collapse;
+ 	border-bottom: 1px solid black;
+}
+th.myProfileth{
+	border-collapse: collapse;
+	border-bottom: 3px solid black;
+	background-color: #B1E13E;
+}
+td.myProfiletd{
+	border-collapse: collapse;
+	border: none;
+	background-color: white;
+	border-bottom: 1px solid gray;
+}
+#changeProf{
+	border-radius: 5px;
+	margin-right: 20px;
+	color: white;
+	border: none;
+	font-size: 20px;
+	padding: 10px;
+	background-color: darkorange;
+}
+
+#changeProf:hover{
+	background-color: black;
+	color: white;
+}
+
+.updatebtn,.removebtn{
+	font-size: 20px;
+	color: white;
+	padding: 5px;
+	width: 100px;
+	border-radius: 5px;
+	border: none;
+}
+.updatebtn{
+	background-color: #5337E1;
+}
+.updatebtn:hover{
+	background-color: #A2B6EE;
+	color: black;
+	box-shadow: 3px 3px 10px blue;
+}
+.removebtn{
+	background-color: #F53333;
+}
+.removebtn:hover{
+	background-color: #EC9999;
+	color: black;
+	box-shadow: 3px 3px 10px red;
+}

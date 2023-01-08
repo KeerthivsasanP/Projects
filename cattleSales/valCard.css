@@ -1,0 +1,34 @@
+body{
+	background-color: #A9D57F;
+}
+
+div{
+	width: 50%;
+	height: 60%;
+	background-color: white;
+	font-size: 25px;
+}
+table{
+	font-size: 20px;
+}
+
+input[type="text"],[type="number"]{
+	font-size: 20px;
+}
+
+#paybtn{
+	border: 1px solid gray;
+	border-radius: 5px;
+	background-color: yellow;
+	color: black;
+	padding: 5px 10px;
+	font-size: 30px;
+}
+
+option{
+	font-size: 25px;
+}
+
+select{
+	font-size: 25px;
+}

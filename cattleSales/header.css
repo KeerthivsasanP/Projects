@@ -1,0 +1,70 @@
+body{
+	
+	font-family: sans-serif;
+}
+
+table#headerTable{
+	background-image: linear-gradient(#53C4FF,white);
+}
+#tdHeader{
+	border: none;
+}
+
+#header{
+	font-size: 50px;
+	padding: 15px;
+	padding-bottom: 0px;
+	background-color: transparent;
+	color: black;
+	margin: 0;
+}
+
+#subTitle{
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 25px;
+	background-color: transparent;
+	color: gray;
+
+}
+#menu{
+	width: auto;
+	height: auto;
+	padding: 0 2.4%;
+	background-color: #EFD783;
+	margin-bottom: 5px;
+}
+
+.headerButton{
+	font-size: 20px;
+	width:	260px;
+	height: auto;
+	background: none;
+	border: none;
+	padding: 20px;
+	color: black;
+}
+
+.headerButton:hover{
+	background-color: #3669EC;
+	color: white;
+}
+
+#logo{
+	border-radius: 50%;
+	margin: 10px;
+}
+
+#signoutbtn{
+	background-color: #F33B3B;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	font-size: 15px;
+	padding: 5px 10px;
+}
+
+#home{
+	border-radius: 50%;
+}

@@ -1,0 +1,46 @@
+paid promotion
+login page after buy
+caretaker rating
+
+
+
+
+
+references:
+
+TRUST AND TAM IN ONLINE SHOPPING: 
+AN INTEGRATED MODEL
+
+
+
+
+
+Additional code:
+
+for multiplication
+
+<input type="number" value="<?php echo $row['price'] ?>" name="n1" id="n1" onkeyup="calcCost()">
+		<input type="number" max="<?php echo $row['quantity']; ?>" min="<?php echo $row['mpq'] ?>" value="<?php echo $row['mpq'] ?>" name="n2" id="n2" onkeyup="calcCost()">=
+		<input type="number" name="op" id="op">
+
+		<script>
+			function calcCost(){
+				var i1 = document.getElementById('n1').value;
+				var i2 = document.getElementById('n2').value;
+
+				document.getElementById('op').value = i1*i2;
+			}
+		</script>
+
+
+
+
+mohanraj		1,2,3,8,9,10
+manikandan		5,6,7
+keerthivasan	4,11,12,13,14,15,16
+
+manikandan 		registration,cattle purchase home
+
+mohanraj		product sales,caretaker
+
+keerthivasan 	adoption,header,footer

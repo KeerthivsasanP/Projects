@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: auto;
+	margin: auto;
+	overflow: auto;
+}
+
+.gallery{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 300px;
+}
+
+.gallery:hover{
+	background-color: #BCECC2;
+	box-shadow: 3px 3px ;
+}
+
+.detailButton{
+	font-size: 20px;
+	border-radius: 5px;
+	width:	200px;
+	height: auto;
+	padding: 15px;
+	border: none;
+	background-color: #28CB30;
+	color: white;
+}
+
+.detailButton:hover{
+	background-color: yellow;
+	color: black;
+	box-shadow: 2px 2px 10px ;
+}
+
+.gallery{
+	padding: 10px;
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 320px;
+	border-radius: 15px;
+	background-color: floralwhite;
+	font-size: 18px;
+}

@@ -1,0 +1,28 @@
+body{
+	background-image: url('images/paymentOptions.png');
+}
+
+div{
+	background-color: #DBDBEB;
+	width: 50%;
+	height:60%;
+}
+
+h1{
+	color: #20B847;
+}
+table{
+	font-size: 25px;
+}
+
+.errorMessage{
+	color: red;
+}
+#proceed{
+	border: none;
+	border-radius: 5px;
+	background-color: yellow;
+	color: black;
+	padding: 5px 10px;
+	font-size: 30px;
+}

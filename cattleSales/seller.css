@@ -1,0 +1,67 @@
+*{
+	font-size: sans-serif;
+}
+input[type='text'],[type='radio'],[type='number'],[type='email'],[type='date'],textarea,option,select,[type='file']{
+	color: green;
+	font-size: 18px;
+	background-color: ghostwhite;
+	border: 1px solid #D5CACA;
+}
+
+select:hover{
+	background-color: #D6F4ED;
+	color: green;
+}
+
+option:hover{
+	background-color: #D6F4ED;
+}
+input:hover{
+	background-color: #D6F4ED;
+}
+textarea:hover{
+	background-color: #D6F4ED;
+}
+td{
+	font-size: 18px;
+}
+
+.TandC{
+	font-size: 18px;
+}
+
+[type='checkbox']{
+	background-color: #90DCEF;
+}
+
+legend{
+	color: blueviolet;
+	background-color: #FBF5F5;
+	font-size: 20px;
+}
+
+fieldset{
+	border: 1px solid #8EF4D4;
+}
+
+a{
+	text-decoration: none;
+	font-size: 18px;
+	color: ;
+}
+
+[type="submit"]{
+	background-color: #F1CEA1;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+[type="submit"]:hover{
+	color: white;
+	background-color: darkorange;
+}
+.errorMessage{
+	color: red;
+}

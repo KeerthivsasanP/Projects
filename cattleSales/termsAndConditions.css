@@ -1,0 +1,12 @@
+#backToHomebtn{
+	background-color: orange;
+	font-size: 20px;
+	text-decoration: none;
+	color: white; 
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+body{
+	font-size: 20px;
+}

@@ -1,0 +1,46 @@
+#backToTop{
+	text-decoration: none;
+	height: auto;
+	width: auto;
+	background-color: #6E6B6B;
+	color: white;
+	margin-top: 20px;
+	font-size: 20px;
+	padding: 20px;
+}
+
+#otherDetails{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	width: auto;
+	background-color: gray;
+	overflow: auto;
+}
+
+.details{
+	width: 400px;
+	height: auto;
+	float: left;
+	color: white;
+	margin: 20px 0;
+}
+
+#arrowImg{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+
+.thFooter{
+	padding: 5px 100px;
+}
+
+#tableFooter{
+	color: white;
+}
+
+.tdFooter{
+	color: white;
+}

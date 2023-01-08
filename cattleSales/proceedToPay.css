@@ -1,0 +1,28 @@
+body{
+	background-image: url('images/payingBg.jfif');
+}
+
+div{
+	width: 50%;
+	height: 60%;
+	background-color: white;
+	font-size: 25px;
+}
+
+#paybtn{
+	border: none;
+	border-radius: 5px;
+	background-color: yellow;
+	color: black;
+	padding: 5px 10px;
+	font-size: 30px;
+}
+
+form{
+	margin-top: 15%;
+}
+
+h1{
+	padding: 30px;
+	color: #61C466;
+}

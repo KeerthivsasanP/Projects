@@ -1,0 +1,57 @@
+*{
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	background: url("images/bglogin.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div{
+	background-color:#E7D45589 ;
+	border-radius: 40px;
+	margin-top: 10%;
+	width: 40%;
+	height: auto;
+	/*border: 1px solid black;*/
+	text-align: center;
+}
+
+td{
+	font-size: 20px;
+}
+
+input[type="email"],[type="password"],[type="text"]{
+	outline: none;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #CA2121;
+	font-size: 20px;
+}
+
+input[type="email"],[type="password"],[type="text"]:focus{
+	background-color: transparent;
+}
+
+input[type="submit"]{
+	background-color: #8FB40D;
+	color: #FFFFFF;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 15px;
+
+}
+a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+.errorMessage{
+	color: red;
+}

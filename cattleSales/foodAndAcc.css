@@ -1,0 +1,53 @@
+.buybtn{
+	font-size: 20px;
+	border-radius: 5px;
+	width:	200px;
+	height: auto;
+	padding: 15px;
+	border: none;
+	background-color: #28CB30;
+	color: white;
+}
+
+.buybtn:hover{
+	background-color: yellow;
+	color: black;
+	box-shadow: 2px 2px 10px ;
+}
+
+table#productTable{
+	 	text-align: center;
+	 	border-collapse: collapse;
+	 	border: 10px solid #EFA6A6;
+}
+
+
+td.tdDetails{
+	border-collapse: collapse;
+	 border: none;
+	background-color: whitesmoke;
+	width: 350px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+#sellAProdBtn{
+	border: none;
+	width: 200px;
+	height: 75px;
+	background-color: #8D30AF;
+	color: white;
+	font-size: 20px;
+	font-weight: heavy;
+	border-radius: 5px;
+}
+
+#sellAProdBtn:hover{
+	background-color: #EA56E8;
+	color: black;
+	box-shadow: 5px 5px 50px #A85EA7;
+}
+
+#prodContainer{
+	background-color: #EFA6A6;
+}
